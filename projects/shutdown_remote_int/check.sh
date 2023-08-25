@@ -9,3 +9,5 @@ ssh -i /home/ubuntu/new.pem -o StrictHostKeyChecking=no  ubuntu@ec2-65-1-1-165.a
 #int-4
 ssh -i /home/ubuntu/new.pem -o StrictHostKeyChecking=no  ubuntu@ec2-3-110-86-112.ap-south-1.compute.amazonaws.com 'sudo shutdown -h now'
 
+
+# enter this in crontab -e to automate it. -o StrictHostKeyChecking=0 is imp 
