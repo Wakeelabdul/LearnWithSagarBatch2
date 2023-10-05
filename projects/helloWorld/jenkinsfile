@@ -18,12 +18,18 @@ pipeline {
                 }
             }
         }
-
-        stage('run applicationt') {
+         stage('run applicationt') {
             steps {
                 script {
                     sh 'sudo python3 -m projects.helloWorld.app &'
                     sleep 5
+                }
+            }
+        }
+        stage('send mail') {
+            steps {
+                script {
+                   mail bcc: '', body: 'jenkins emial configuration', cc: '', from: '', replyTo: '', subject: 'pipeline', to: 'wakeelabdul50512@gmail.com' 
                 }
             }
         }
