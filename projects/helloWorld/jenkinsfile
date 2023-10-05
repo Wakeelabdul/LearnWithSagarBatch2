@@ -22,7 +22,6 @@ pipeline {
             steps {
                 script {
                     sh 'sudo python3 -m projects.helloWorld.app &'
-                    sleep 5
                 mail bcc: '', body: "<b>PIPELINE STATUS</b><br>Project: ${env.JOB_NAME} <br>Build Number: ${env.BUILD_NUMBER} <br> URL de build: ${env.BUILD_URL} <br> Build Status: ${env.BUILD_STATUS}", cc: '', charset: 'UTF-8', from: '', mimeType: 'text/html', replyTo: '', subject: "PIPELINE STATUS CI: Project name -> ${env.JOB_NAME}", to: "wakeelabdul50512@gmail.com";
                 }
             }
