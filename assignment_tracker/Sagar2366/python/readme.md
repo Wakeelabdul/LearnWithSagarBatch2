@@ -31,5 +31,18 @@
 21. Create a Frontend for wikipedia application
 22. Create a Python Web Application for Weather details & forecasting using OpenWeatherMap API
 23. Dockerise the above application & also deploy it on the K8S cluster
-24. Setup and configure ELK stack
-25. Send Python app Logs to ELK stack
+24. Setup and configure ELK stack - Docker Compose
+26. Send Python app Logs to ELK stack
+27. Blog on ElasticSearch, Logstash & Kibana (ELK)
+28. Setup ELK on compute instances, Kubernetes (ArgoCD)
+29. Collect cpu,disk metrics using input plugins and send it to Elastic output plugin
+
+Links :
+Troubleshooting Elastic - https://www.elastic.co/guide/en/elasticsearch/reference/current/monitoring-troubleshooting.html
+ELK on K8S - https://www.elastic.co/guide/en/starting-with-the-elasticsearch-platform-and-its-solutions/current/getting-started-kubernetes.html
+ELK on Docker Compose - https://www.elastic.co/blog/getting-started-with-the-elastic-stack-and-docker-compose
+MetricBeat - https://www.elastic.co/guide/en/beats/metricbeat/current/index.html
+Filebeat - https://www.elastic.co/guide/en/beats/filebeat/current/running-on-docker.html
+Teleraf plugins - https://docs.influxdata.com/telegraf/v1/plugins/
+Datadog - https://docs.datadoghq.com/containers/docker/?tab=standard
+
