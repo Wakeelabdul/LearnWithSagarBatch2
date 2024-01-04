@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls -al'
-                sh 'pip install -U Flask'
+                sh 'sudo pip3 install -U Flask'
             }
         }
         stage('Run flask application') {
