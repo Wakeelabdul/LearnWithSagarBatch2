@@ -25,7 +25,7 @@ pipeline {
                 sh 'ls -al'
                 sh 'python3 -m venv .venv'
                 sh 'source .venv/bin/activate'
-                sh 'python3 -m pip install -r projects/helloWorld/requirements.txt
+                sh 'python3 -m pip install -r projects/helloWorld/requirements.txt'
                 //sh 'pip3 install -r projects/helloWorld/requirements.txt'
             }
         }
